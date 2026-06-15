@@ -1,7 +1,10 @@
 import streamlit as st
 st.title("IKRAMs score calculator")
+st.markdown("###*Check Your Results Instantly!*")
+st.markdown("___")
 #lets set up two variable to compare
 my_score=st.number_input("enter your score:",min_value=0,max_value=100,value=90)
+st.markdown("___")
 passing_score=70
 perfect_score=100
 #. greater than (>)
