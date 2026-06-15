@@ -25,10 +25,12 @@ elif my_score>=70:
     st.snow()
     st.info("you got B grade")
 elif my_score>=55:
+    st.snow()
     st.warning("you got C grade")
 elif my_score>=40:
-    st.warning("you got D grade")
+    st.image("https://media.giphy.com?media?13q2Z6G1MMmZ84vsc/giphy.gif",width=150)
+    st.info("you got D grade")
 else:
-    st.warning("you got E grade")
+    st.error("you got E grade")
         
 
