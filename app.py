@@ -16,14 +16,16 @@ if my_score==perfect_score:
 if my_score!=perfect_score:
     st.write("you have to do more hardwork to acheive 100")
 if my_score>=85:
+    st.balloons()
     st.write("you got an A grade")
 elif my_score>=70:
-    st.write("you got B grade")
+    st.snow()
+    st.info("you got B grade")
 elif my_score>=55:
-    st.write("you got C grade")
+    st.warning("you got C grade")
 elif my_score>=40:
-    st.write("you got D grade")
+    st.warning("you got D grade")
 else:
-    st.write("you got E grade")
+    st.warning("you got E grade")
         
 
