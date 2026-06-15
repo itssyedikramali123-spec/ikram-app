@@ -6,10 +6,11 @@ passing_score=70
 perfect_score=100
 #. greater than (>)
 if my_score>passing_score:
-    st.write("yesss YOU have proved yourself you passed")
+    st.success("yesss YOU have proved yourself you passed")
 if my_score<passing_score:
-    st.write("you are failed YOU need hardwork")
+    st.error("you are failed YOU need hardwork")
 if my_score==perfect_score:
+    st.balloons()
     st.write("you got perfect score you are unbeatable")
 #== is sign og equal and!= is for not equal to
 if my_score!=perfect_score:
