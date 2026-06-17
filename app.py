@@ -11,8 +11,8 @@ b=st.number_input("enter your score of subject 5:",min_value=0,max_value=100,val
 f=(a+b+x+y+z)
 my_score=(f/5)
 st.markdown("___")
-passing_score=150
-perfect_score=500
+passing_score=25
+perfect_score=100
 #. greater than (>)
 if my_score>passing_score:
     st.success("yesss YOU have proved yourself you passed")
@@ -24,16 +24,16 @@ if my_score==perfect_score:
 #== is sign og equal and!= is for not equal to
 if my_score!=perfect_score:
     st.write("you have to do more hardwork to acheive 100")
-if my_score>=450:
+if my_score>=90:
     st.balloons()
     st.write("you got an A grade")
-elif my_score>=350:
+elif my_score>=70:
     st.snow()
     st.info("you got B grade")
-elif my_score>=250:
+elif my_score>=60:
     st.snow()
     st.warning("you got C grade")
-elif my_score>=150:
+elif my_score>=40:
     st.info("you got D grade")
 else:
     st.error("you got E grade")
