@@ -22,8 +22,7 @@ if my_score==perfect_score:
     st.balloons()
     st.write("you got perfect score you are unbeatable")
 #== is sign og equal and!= is for not equal to
-if my_score!=perfect_score:
-    st.write("you have to do more hardwork to acheive 100")
+    st.write("my_score")
 if my_score>=90:
     st.balloons()
     st.write("you got an A grade")
