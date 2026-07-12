@@ -11,5 +11,7 @@ final_amount=p+tax_amount
 st.write("your MRP after discount is",p)
 st.write("Total money you saved",rc)
 st.write("the extra tax amount you are paying is",tax_amount)
+st.divider()
 st.write("the final prize including taxis",final_amount)
+st.success(f"### **total amount to pay:{final_amount}**")
 
