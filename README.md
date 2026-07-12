@@ -1,6 +1,6 @@
 # 🚀 Ikram's Python Web Portfolio
 
-Welcome to my Python portfolio! This repository contains multiple interactive web applications built using **Streamlit** and hosted live.
+Welcome to my Python portfolio! This repository contains interactive web applications built using **Streamlit** and hosted live.
 
 ---
 
@@ -13,17 +13,23 @@ A sleek, interactive dashboard that helps users calculate exact savings and fina
 ### ✨ Features
 * **Instant Discount Math:** Enter original MRP and discount percentage to see exact savings.
 * **Accurate Tax Breakdown:** Calculates the exact tax amount applied *after* the discount.
-* **Highlighted Total:** Uses custom Streamlit layouts to make the final amount to pay stand out clearly.
+* **Highlighted Total:** Uses custom Streamlit layouts to make the final amount stand out clearly.
 
 ---
 
-## 🛠️ Project 2: My Advanced Multi-Feature App (`app.py`)
-This is my core development file where I coded advanced concepts and structural experiments. It showcases deeper backend logic and serves as the foundation for my coding journey.
+## 🎓 Project 2: Interactive Student Grade & Result Analyzer (`app.py`)
+A fun, interactive educational app where users enter scores for 5 subjects to instantly calculate their total percentage and final academic grade.
 
-### ✨ Key Coding Highlights
-* Complex data logic handling.
-* Clean variable architecture.
-* Custom input workflows for user interactions.
+### ✨ Features
+* **5-Subject Score Input:** Clean fields to track marks across multiple classes.
+* **Smart Pass/Fail Logic:** Automatically calculates total percentage and determines pass/fail status with custom grading scales.
+* **Dynamic Visual Celebrations:** * 🎉 Triggers **Streamlit Balloons** to celebrate when a student passes!
+  * ❄️ Drops **Streamlit Snowflakes** to offer a cool, encouraging effect if a student needs to try again.
+
+---
+
+## 🛠️ Project 3: Core Architecture & Logic Experiments
+This represents my foundational development work, showcasing deeper backend Python logic, clean variable structural layouts, and customized input validation workflows.
 
 ---
 
